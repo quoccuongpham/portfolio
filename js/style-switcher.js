@@ -41,11 +41,3 @@ window.addEventListener('load', () => {
     }
 })
 
-// Asside
-const navItem = document.querySelectorAll('.nav li');
-console.log(navItem)
-navItem.forEach((value) => {
-    value.addEventListener('click', () => {
-        value.classList.add('active');
-    })
-})
